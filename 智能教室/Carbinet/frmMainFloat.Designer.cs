@@ -93,7 +93,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::Carbinet.Properties.Resources._8;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(145, 27);
             this.Controls.Add(this.pbTest);
             this.Controls.Add(this.pbFloatPie);
@@ -104,7 +104,6 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmMainFloat";
-            this.Opacity = 0.8;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.TopMost = true;
